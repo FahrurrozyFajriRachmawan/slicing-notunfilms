@@ -1,0 +1,203 @@
+.bg-movie {
+  background-color: var(--color-primary);
+}
+
+.wrapper-search {
+  padding: 10px 0;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.wrapper-search .title-movie-section {
+  padding: 30px 0 30px 20px;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  left: 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--color-b);
+}
+@media (max-width: 575.98px) {
+  .wrapper-search .title-movie-section {
+    display: inline-block;
+    position: static;
+    width: 100%;
+    font-size: 18px;
+  }
+}
+.wrapper-search .search-movie {
+  margin: 20px 10px;
+  padding: 20px;
+  width: 30%;
+  height: 40px;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 10px;
+  background-color: var(--color-b);
+}
+@media (max-width: 767.98px) {
+  .wrapper-search .search-movie {
+    display: inline-block;
+    position: static;
+    width: 80%;
+  }
+}
+.wrapper-search .search-movie:focus {
+  color: var(--color-primary);
+}
+
+.movie-section {
+  margin: 0;
+  padding: 5px;
+  display: inline-block;
+  width: 16.6%;
+}
+@media (max-width: 991.98px) {
+  .movie-section {
+    width: 20%;
+  }
+}
+@media (max-width: 767.98px) {
+  .movie-section {
+    width: 25%;
+  }
+}
+@media (max-width: 372.98px) {
+  .movie-section {
+    width: 50%;
+  }
+}
+.movie-section a {
+  text-decoration: none;
+}
+.movie-section a:hover .wrapper-movie .img-movie img {
+  filter: brightness(50%);
+}
+.movie-section a:hover .wrapper-movie .icon-play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: brightness(100%);
+}
+.movie-section a:hover .wrapper-movie .title-movie h1 {
+  color: var(--color-a);
+}
+.movie-section a:hover .wrapper-movie .desc-movie p {
+  color: var(--color-a);
+}
+.movie-section a .wrapper-movie .img-movie {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 10px;
+}
+@media (max-width: 2255.98px) {
+  .movie-section a .wrapper-movie .img-movie {
+    height: 500px;
+  }
+}
+@media (max-width: 1855.98px) {
+  .movie-section a .wrapper-movie .img-movie {
+    height: 380px;
+  }
+}
+@media (max-width: 1399.98px) {
+  .movie-section a .wrapper-movie .img-movie {
+    height: 300px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .movie-section a .wrapper-movie .img-movie {
+    height: 250px;
+  }
+}
+@media (max-width: 575.98px) {
+  .movie-section a .wrapper-movie .img-movie {
+    height: 170px;
+  }
+}
+@media (max-width: 428.98px) {
+  .movie-section a .wrapper-movie .img-movie {
+    height: 130px;
+  }
+}
+@media (max-width: 372.98px) {
+  .movie-section a .wrapper-movie .img-movie {
+    height: 200px;
+  }
+}
+.movie-section a .wrapper-movie .icon-play {
+  display: none;
+}
+.movie-section a .wrapper-movie .icon-play img {
+  position: absolute;
+  bottom: 320px;
+  width: 60px;
+  height: 60px;
+}
+@media (max-width: 2255.98px) {
+  .movie-section a .wrapper-movie .icon-play img {
+    bottom: 250px;
+  }
+}
+@media (max-width: 1855.98px) {
+  .movie-section a .wrapper-movie .icon-play img {
+    bottom: 180px;
+  }
+}
+@media (max-width: 1399.98px) {
+  .movie-section a .wrapper-movie .icon-play img {
+    bottom: 130px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .movie-section a .wrapper-movie .icon-play img {
+    bottom: 100px;
+  }
+}
+@media (max-width: 575.98px) {
+  .movie-section a .wrapper-movie .icon-play img {
+    bottom: 70px;
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 428.98px) {
+  .movie-section a .wrapper-movie .icon-play img {
+    bottom: 50px;
+  }
+}
+@media (max-width: 372.98px) {
+  .movie-section a .wrapper-movie .icon-play img {
+    bottom: 90px;
+  }
+}
+.movie-section a .wrapper-movie .title-movie {
+  margin: 0;
+  padding: 10px 0 0 10px;
+  font-size: 18px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--color-b);
+}
+@media (max-width: 575.98px) {
+  .movie-section a .wrapper-movie .title-movie {
+    font-size: 16px;
+  }
+}
+.movie-section a .wrapper-movie .desc-movie {
+  margin: 0;
+  padding: 0 10px 20px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-b);
+}/*# sourceMappingURL=MovieSection.css.map */

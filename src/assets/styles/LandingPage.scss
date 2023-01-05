@@ -1,0 +1,303 @@
+// :root {
+//   --color-primary: #ffe5e5;
+//   --color-a: #fff;
+//   --color-b: #e0e0e0;
+//   --color-z: #161616;
+// }
+
+// .bg-header {
+//   background-image: url("../images/bg.jpg");
+//   background-size: cover;
+//   height: 100vh;
+
+//   Navbar Section
+//   .navbar {
+//     .navbar-brand {
+//       font-weight: 700;
+//       font-size: 24px;
+//       color: var(--color-primary);
+
+//       span {
+//         color: var(--color-a);
+//       }
+
+//       &:hover {
+//         color: var(--color-b);
+//       }
+//     }
+
+//     .nav-link {
+//       margin: 0 40px 0 0;
+//       font-weight: 500;
+//       font-size: 16px;
+//       color: var(--color-b);
+
+//       &:hover {
+//         color: var(--color-primary);
+//       }
+//     }
+//   }
+
+//   Header Section
+//   .header-section {
+//     margin: 150px 0 0 0;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     text-align: center;
+//     color: var(--color-a);
+
+//     h1 {
+//       font-weight: 700;
+//       font-size: 40px;
+//     }
+
+//     p {
+//       font-weight: 500;
+//       font-size: 24px;
+//     }
+
+//     a {
+//       text-decoration: none;
+//       opacity: 1;
+//       img {
+//         width: 60px;
+//         height: 60px;
+//       }
+
+//       &:hover {
+//         opacity: 0.9;
+//       }
+//     }
+//   }
+
+//   Popular Section
+//   .popular-section {
+//     padding: 20px;
+
+//     .center {
+//       padding: 50px;
+
+//       @media (max-width: 372px) {
+//         display: none;
+//       }
+
+//       .slick-arrow {
+//         display: none !important;
+//       }
+
+//       img {
+//         padding: 8px;
+//         width: 200px;
+//         height: 125px;
+//         cursor: grab;
+
+//         @media (max-width: 575.98px) {
+//           width: 170px;
+//           height: 95px;
+//         }
+//       }
+
+//       .slick-center {
+//         img {
+//           padding: 0;
+//           border: 2px solid #b5b5b5;
+//           border-radius: 12px;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// Main Content
+// .main-content {
+//   background-image: url("../images/bg-notunfilms.jpg");
+//   background-size: cover;
+//   backdrop-filter: var(--color-z);
+
+//   .trending-section {
+//     .title-trending {
+//       h1 {
+//         margin: 100px 0 0 10px;
+//         display: flex;
+//         font-weight: 700;
+//         font-size: 24px;
+//         color: var(--color-a);
+//       }
+//     }
+
+//     .row {
+//       margin: 0;
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//     }
+
+//     .img-trending {
+//       margin: 35px 0 0 0;
+//       padding: 0;
+//       max-width: 235px;
+//       max-height: 500px;
+//       text-align: center;
+
+//       &:hover {
+//         transition: 0.3s ease;
+
+//         .img-cinema {
+//           filter: brightness(60%);
+//         }
+
+//         .icon-play-trending {
+//           display: inline-block;
+//           filter: brightness(100%);
+//         }
+
+//         h1 {
+//           margin: -26px 0 2px 0;
+//           font-weight: bold;
+//           color: var(--color-primary);
+//         }
+//       }
+
+//       a {
+//         text-decoration: none;
+//       }
+
+//       .img-cinema {
+//         padding: 0;
+//         margin: 0 0 20px 0;
+//         width: 210px;
+//         height: 270px;
+//         border-radius: 10px;
+//       }
+
+//       .icon-play-trending {
+//         margin: -335px 0 0 0;
+//         padding: 0;
+//         display: none;
+//         justify-content: center;
+//         align-items: center;
+//         text-align: center;
+//         width: 50px;
+//         height: 50px;
+//       }
+
+//       .icon-star-trending {
+//         padding: 2px;
+//         margin: -3px 2px 0 -3px;
+//         width: 20px;
+//         height: 20px;
+//       }
+
+//       h1 {
+//         padding: 0 20px;
+//         margin: 0 0 2px 0;
+//         text-align: left;
+//         font-weight: 500;
+//         font-size: 18px;
+//         color: var(--color-a);
+//       }
+
+//       p {
+//         padding: 0 20px;
+//         text-align: left;
+//         font-weight: 300;
+//         font-size: 14px;
+//         color: var(--color-b);
+//       }
+//     }
+//   }
+
+//   .last-watched-section {
+//     .title-last-watched {
+//       h1 {
+//         margin: 100px 0 0 10px;
+//         display: flex;
+//         font-weight: 700;
+//         font-size: 24px;
+//         color: var(--color-a);
+//       }
+//     }
+
+//     .row {
+//       margin: 0;
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//     }
+
+//     .img-last-watched {
+//       margin: 35px 0 0 0;
+//       padding: 0;
+//       max-width: 235px;
+//       max-height: 500px;
+//       text-align: center;
+
+//       &:hover {
+//         transition: 0.3s ease;
+
+//         .img-cinema {
+//           filter: brightness(60%);
+//         }
+
+//         .icon-play-last-watched {
+//           display: inline-block;
+//           filter: brightness(100%);
+//         }
+
+//         h1 {
+//           margin: -26px 0 2px 0;
+//           font-weight: bold;
+//           color: var(--color-primary);
+//         }
+//       }
+
+//       a {
+//         text-decoration: none;
+//       }
+
+//       .img-cinema {
+//         padding: 0;
+//         margin: 0 0 20px 0;
+//         width: 210px;
+//         height: 270px;
+//         border-radius: 10px;
+//       }
+
+//       .icon-play-last-watched {
+//         margin: -335px 0 0 0;
+//         padding: 0;
+//         display: none;
+//         justify-content: center;
+//         align-items: center;
+//         text-align: center;
+//         width: 50px;
+//         height: 50px;
+//       }
+
+//       .icon-star-last-watched {
+//         padding: 2px;
+//         margin: -3px 2px 0 -3px;
+//         width: 20px;
+//         height: 20px;
+//       }
+
+//       h1 {
+//         padding: 0 20px;
+//         margin: 0 0 2px 0;
+//         text-align: left;
+//         font-weight: 500;
+//         font-size: 18px;
+//         color: var(--color-a);
+//       }
+
+//       p {
+//         padding: 0 20px;
+//         text-align: left;
+//         font-weight: 300;
+//         font-size: 14px;
+//         color: var(--color-b);
+//       }
+//     }
+//   }
+// }
