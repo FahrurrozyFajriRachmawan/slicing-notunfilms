@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.be0734b9.css",
+    "main.js": "/static/js/main.dd69b292.js",
+    "static/js/787.486fe306.chunk.js": "/static/js/787.486fe306.chunk.js",
+    "static/media/bg.jpg": "/static/media/bg.7108cfd165633212ec54.jpg",
+    "static/media/avenger.png": "/static/media/avenger.25bbeb130e11a0da3f16.png",
+    "static/media/avatar.png": "/static/media/avatar.fea245fe9318d72235ae.png",
+    "static/media/ironman3.png": "/static/media/ironman3.921d7dcb241a0bff24ea.png",
+    "static/media/the-walking-dead.png": "/static/media/the-walking-dead.159dd061d5a02a299514.png",
+    "static/media/spiderman.png": "/static/media/spiderman.7ccda43f8fa9fc2ed7c6.png",
+    "static/media/uncharted-cinema.jpg": "/static/media/uncharted-cinema.a718e2b25cc0c340faa8.jpg",
+    "static/media/venom-cinema.jpg": "/static/media/venom-cinema.237fcded1b0605a907fe.jpg",
+    "static/media/dr.stranger-cinema.jpg": "/static/media/dr.stranger-cinema.acb27caee816e52cbcb9.jpg",
+    "static/media/spiderman-cinema.jpg": "/static/media/spiderman-cinema.02b020882954a473714c.jpg",
+    "static/media/shangchi-cinema.jpg": "/static/media/shangchi-cinema.55f33e31fdf9a05cc157.jpg",
+    "static/media/wakanda-cinema.jpg": "/static/media/wakanda-cinema.579bb235f997e9caab1f.jpg",
+    "static/media/squidgame-cinema.jpg": "/static/media/squidgame-cinema.1a7b853d3717f2c5ce0b.jpg",
+    "static/media/blackadam-cinema.jpg": "/static/media/blackadam-cinema.607244aa089a754f6bb3.jpg",
+    "static/media/adam-cinema.jpg": "/static/media/adam-cinema.652e42c6338c9d6736de.jpg",
+    "static/media/avatar-cinema.jpg": "/static/media/avatar-cinema.25e1c01d6e76b805cf22.jpg",
+    "static/media/thor-cinema.jpg": "/static/media/thor-cinema.700887a22e2fb05097e8.jpg",
+    "static/media/eternals-cinema.jpg": "/static/media/eternals-cinema.95a6193769b49c97845d.jpg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.be0734b9.css.map": "/static/css/main.be0734b9.css.map",
+    "main.dd69b292.js.map": "/static/js/main.dd69b292.js.map",
+    "787.486fe306.chunk.js.map": "/static/js/787.486fe306.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be0734b9.css",
+    "static/js/main.dd69b292.js"
+  ]
+}
