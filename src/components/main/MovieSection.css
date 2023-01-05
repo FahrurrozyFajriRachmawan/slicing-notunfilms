@@ -63,6 +63,11 @@
     width: 25%;
   }
 }
+@media (max-width: 575.98px) {
+  .movie-section {
+    width: 33%;
+  }
+}
 @media (max-width: 372.98px) {
   .movie-section {
     width: 50%;
@@ -118,14 +123,9 @@
     height: 250px;
   }
 }
-@media (max-width: 575.98px) {
-  .movie-section a .wrapper-movie .img-movie {
-    height: 170px;
-  }
-}
 @media (max-width: 428.98px) {
   .movie-section a .wrapper-movie .img-movie {
-    height: 130px;
+    height: 180px;
   }
 }
 @media (max-width: 372.98px) {

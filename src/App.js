@@ -34,7 +34,7 @@ function App() {
         <MovieSection titleSection="Random Movie" />
 
         <div>
-          <div className="wrapper-search py-5">
+          <div className="wrapper-search">
             <div className="title-movie-section">Last Watched</div>
           </div>
           <div id="lastwatched">
