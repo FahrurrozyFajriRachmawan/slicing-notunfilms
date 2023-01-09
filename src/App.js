@@ -1,12 +1,8 @@
 import "./App.scss";
-// import "./assets/styles/LandingPage.css";
 import NavigationBar from "./components/navigationbar/NavigationBar";
 import HeaderSection from "./components/header/HeaderSection";
 import MovieSection from "./components/main/MovieSection";
-// import PopularSection from "./components/PopularSection";
-// import TrendingSection from "./components/TrendingSection";
 import LastWatchedSection from "./components/main/LastWatchedSection";
-
 import imgUncharted from "./assets/images/uncharted-cinema.jpg";
 import imgWakanda from "./assets/images/wakanda-cinema.jpg";
 import imgEternals from "./assets/images/eternals-cinema.jpg";
@@ -26,7 +22,6 @@ function App() {
       <div className="bg-header">
         <NavigationBar />
         <HeaderSection />
-        {/* <PopularSection /> */}
       </div>
 
       <div className="bg-movie px-2" id="trending">
@@ -78,11 +73,6 @@ function App() {
           </div>
         </div>
       </div>
-
-      {/* <div className="main-content">
-        <TrendingSection />
-        <LastWatchedSection />
-      </div> */}
     </div>
   );
 }
