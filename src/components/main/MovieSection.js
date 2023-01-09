@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Card } from "react-bootstrap";
 import "../main/MovieSection.scss";
 import iconPlay from "../../assets/images/btn-play.png";
-
 import { getMovieList, searchMovie } from "../../api";
 import { useEffect, useState } from "react";
 
@@ -56,27 +55,6 @@ const MovieSection = (props) => {
         />
       </div>
       <PopularMovieList />
-
-      {/* <div className="movie-section">
-        <a href="#">
-          <div className="wrapper-movie">
-            <div className="img-movie">
-              <img src={props.image}></img>
-            </div>
-            <div className="icon-play">
-              <img src={iconPlay}></img>
-            </div>
-            <div className="title-movie">
-              <h1>{props.title}</h1>
-            </div>
-            <div className="desc-movie">
-              <p>
-                {props.rate} • {props.date}
-              </p>
-            </div>
-          </div>
-        </a>
-      </div> */}
     </>
   );
 };
