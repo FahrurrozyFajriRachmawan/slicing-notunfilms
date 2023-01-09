@@ -1,9 +1,6 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
 import React from "react";
-
 import "../main/MovieSection.scss";
-
-// import iconPlay from "../../assets/images/btn-play.png";
 
 const LastWatchedSection = (props) => {
   return (
