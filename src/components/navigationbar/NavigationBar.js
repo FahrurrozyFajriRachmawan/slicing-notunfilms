@@ -5,8 +5,8 @@ const NavigationBar = () => {
   return (
     <>
       <Navbar bg="transparent" expand="lg" variant="dark">
-        <Container fluid>
-          <Navbar.Brand href="#home" className="mx-3">
+        <Container>
+          <Navbar.Brand href="#home">
             Notun<span>films.</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
