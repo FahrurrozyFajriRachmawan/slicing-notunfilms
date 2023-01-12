@@ -35,7 +35,7 @@ const HeaderSection = () => {
         </Row>
       </Container>
 
-      <Container className="img-header">
+      <Container fluid className="img-header">
         <Row>
           <div>
             <Slider {...settings}>
