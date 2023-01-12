@@ -5,7 +5,7 @@ const NavigationBar = () => {
   return (
     <>
       <Navbar bg="transparent" expand="lg" variant="dark">
-        <Container>
+        <Container fluid>
           <Navbar.Brand href="#home">
             Notun<span>films.</span>
           </Navbar.Brand>
