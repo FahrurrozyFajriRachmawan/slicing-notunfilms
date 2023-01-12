@@ -1,0 +1,33 @@
+// Navbar Section
+.navbar {
+  margin: 0 50px;
+
+  @media (max-width: 991.98px) {
+    margin: 0;
+  }
+
+  .navbar-brand {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--color-secondary);
+
+    span {
+      color: var(--color-a);
+    }
+
+    &:hover {
+      color: var(--color-b);
+    }
+  }
+
+  .nav-link {
+    margin: 0 0 0 15px;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--color-b);
+
+    &:hover {
+      color: var(--color-secondary);
+    }
+  }
+}
